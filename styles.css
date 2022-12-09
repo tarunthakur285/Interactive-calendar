@@ -1,0 +1,95 @@
+#main-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 113%;
+    width: 100%;
+    background-image: linear-gradient(rgb(56, 130, 148), rgb(177, 189, 74));
+}
+
+#title {
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#holidays-container {
+    margin-left: 50px;
+}
+
+#quotes-container {
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.holiday-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    padding: 0px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#calender {
+    margin: auto;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    height: 480px;
+    width: 700px;
+}
+
+.grid-item {
+    font-weight: bolder;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+    height: 80px;
+    width: 100px;
+    padding: 0px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#month {
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+}
+
+.arrow {
+    font-size: 30px;
+}
+
+.hd {
+    background-color: chartreuse;
+}
